@@ -1,0 +1,15 @@
+projects:
+  amplifyappxuhang-dev:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-east-1
+        apiId: ogkswgbnqrfolbk5pqurlip5wq
+        maxDepth: 2
